@@ -28,10 +28,11 @@ nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: white;
+    background-color:white;
     -webkit-transition: max-height 1s;
     -o-transition: max-height 1s;
     transition: max-height 1s;
+    border-bottom: #2d3142 solid 2px;
 }
 
 footer {
@@ -257,6 +258,7 @@ footer {
 
     nav > .nav-shown {
         display: initial;
+        margin: 0;
     }
 
     span {
