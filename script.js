@@ -1,10 +1,10 @@
-fetch("html/component_nav.html")
+fetch("component_nav.html")
     .then(response => response.text())
     .then(componentHTML => {
         document.getElementById("nav-component").innerHTML = componentHTML
     })
 
-fetch("html/component_footer.html")
+fetch("component_footer.html")
     .then(response => response.text())
     .then(componentHTML => {
         document.getElementById("footer-component").innerHTML = componentHTML
