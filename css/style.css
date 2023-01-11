@@ -447,6 +447,13 @@ footer {
     padding: 20px;
 }
 
+.filler {
+    background-color: white;
+    height: 30px;
+    top: -30px;
+    left: 0px;
+}
+
 .club-detail {
     display: block;
 }
